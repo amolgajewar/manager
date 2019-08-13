@@ -1,0 +1,40 @@
+<html>
+  <head>
+      <style>
+          #managers {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+
+          #managers td, #managers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+          }
+
+          #managers tr:nth-child(even){background-color: #f2f2f2;}
+
+          #managers tr:hover {background-color: #ddd;}
+
+          #managers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color:  #4CAF50;
+            color: white;
+          }
+
+          .rowdiv {
+          width: 100%;
+          display: block;
+          }
+    </style>
+  </head>
+  <body>
+  <div>
+      <h1>Manager</h1>
+    </div>
+    <div id="app"></div>
+    <script type="text/javascript" src='./dist/bundle.js'></script>
+  </body>
+</html>
